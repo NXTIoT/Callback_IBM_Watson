@@ -1,16 +1,17 @@
 Callback_IBM_Watson
+===================
 
 -	[Introducción](#introducción)
 
 Introducción
 ------------
 
-En este repositorio se muestra los pasos para la configuración del callback hacia IBM Watson. Primero, necesitaremos una cuenta en IBM Cloud ([Link](https://console.bluemix.net/)).
+En este repositorio se muestran los pasos para la configuración del callback hacia IBM Watson. Primero, necesitaremos una cuenta en IBM Cloud ([Link](https://console.bluemix.net/)).
 Una vez creada nuestra cuenta, nos aparecerá el panel de control. Damos click en "Catalogo"
 
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm1.png?raw=true)
 
-Ahora seleccionamos Paltaforma -> Internet de las cosas -> Internet of things plataform
+en el panel izquierdo, seleccionamos Plataforma -> Internet de las cosas -> Internet of things plataform
 
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm2.png?raw=true)
 
@@ -37,6 +38,14 @@ seleccionamos "Aplicacion estandar" y finalmente "Generar clave"
 enseguida nos aparecera la "Clave de API" y la "Señal de Autenticacion". Estos dos datos son los que necesitamos para realizar el callback en el backend.
 
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm8.png?raw=true)
+
+![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm8a.png?raw=true)
+
+![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm8b.png?raw=true)
+
+![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm8c.png?raw=true)
+
+![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm8d.png?raw=true)
 
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm9.png?raw=true)
 
