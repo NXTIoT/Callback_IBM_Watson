@@ -39,13 +39,25 @@ enseguida nos aparecera la "Clave de API" y la "Señal de Autenticacion". Estos 
 
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm8.png?raw=true)
 
+nos vamos a nuestra cuenta del backend y buscamos el dispositivo que deseamos conectar. Damos click en el device type
+
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm8a.png?raw=true)
+
+nos aparecerá la informacion del device type. En el panel izquierdo, damos click en "Callbacks"
 
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm8b.png?raw=true)
 
+en la esquina superior derecha seleccionamos "New" para crear un nuevo callback
+
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm8c.png?raw=true)
 
+de entre los callbacks disponibles, selecionamos "IBM Watson IoT Platform" 
+
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm8d.png?raw=true)
+
+
+
+![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm12.png?raw=true)
 
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm9.png?raw=true)
 
@@ -53,4 +65,3 @@ enseguida nos aparecera la "Clave de API" y la "Señal de Autenticacion". Estos 
 
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm11.png?raw=true)
 
-![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm12.png?raw=true)
