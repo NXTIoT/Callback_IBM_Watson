@@ -55,23 +55,24 @@ de entre los callbacks disponibles, selecionamos "IBM Watson IoT Platform"
 
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm8d.png?raw=true)
 
-realizamos la siguiente configuración:
+copiamos y pegamos la "Clave de API" y la "Señal de Autenticacion" de acuerdo a la siguiente configuración:
 
 -	"API Key" -> "Clave de API"
 
 -	"Auth Token" -> "Señal de autenticación"
 
-en el JSON ponemos las variables que queramos enviar. En este caso se tiene una variable de temperatura creada llamada temp.
+en el JSON ponemos las variables que queramos enviar. En este caso enviaremos dos variables que hemos creado (temperatura y humedad). 
 
 JSON body:
 
 	{
 		"temperatura" : "customData#temp",
+		"humedad" : "customData#humedad",
 		"tiempo" : "{time}",
 		"Nseq" : "{seqNumber}"
 	}
 
-finalmente damos click en "OK"
+finalmente damos click en "OK". Con esto terminamos la configuración de nuestro callback. Ahora, enviamos mensajes con nuestro dispositivo
 
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm12.png?raw=true)
 
@@ -79,7 +80,11 @@ regresamos a la plataforma de IBM Watson. En el panel izquierdo, seleccionamos "
 
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm9.png?raw=true)
 
+si ya se recibieron mensajes en el backend, nos aparecerá el ID de nuestro dispositivo en la plataforma de IBM. Damos click en el dispositivo y nos desplegará información
+
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm10.png?raw=true)
+
+ seleccionamos la pestaña "Sucesos Recientes". Cada vez que se reciba un mensaje de nuestro dispositivo, nos aparecerá la información enviada en esta pestaña
 
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm11.png?raw=true)
 
