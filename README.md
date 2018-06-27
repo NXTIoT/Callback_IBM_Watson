@@ -6,8 +6,10 @@ Callback_IBM_Watson
 Introducción
 ------------
 
-En este repositorio se muestran los pasos para la configuración del callback hacia IBM Watson. Primero, necesitaremos una cuenta en IBM Cloud ([Link](https://console.bluemix.net/)).
-Una vez creada nuestra cuenta, nos aparecerá el panel de control. Damos click en "Catalogo"
+En este repositorio se muestran los pasos para la configuración del callback hacia IBM Watson. 
+
+Primero, necesitaremos una cuenta en IBM Cloud ([Link](https://console.bluemix.net/)).
+Una vez creada, entramos a nuestra cuenta y nos aparecerá el panel de control. Damos click en "Catalogo"
 
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm1.png?raw=true)
 
