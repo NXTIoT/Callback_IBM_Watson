@@ -72,10 +72,9 @@ JSON body:
 		"Nseq" : "{seqNumber}"
 	}
 
-finalmente damos click en "OK". Con esto terminamos la configuración de nuestro callback. Ahora, enviamos mensajes con nuestro dispositivo
-
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm12.png?raw=true)
 
+finalmente damos click en "OK". Con esto terminamos la configuración de nuestro callback. Ahora, enviamos mensajes con nuestro dispositivo y
 regresamos a la plataforma de IBM Watson. En el panel izquierdo, seleccionamos "Devices"
 
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm9.png?raw=true)
