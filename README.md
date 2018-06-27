@@ -57,18 +57,19 @@ de entre los callbacks disponibles, selecionamos "IBM Watson IoT Platform"
 
 realizamos la siguiente configuración:
 
-"API Key" -> "Clave de API"
-"Auth Token" -> "Señal de autenticación"
+-	"API Key" -> "Clave de API"
+
+-	"Auth Token" -> "Señal de autenticación"
 
 en el JSON ponemos las variables que queramos enviar. En este caso se tiene una variable de temperatura creada llamada temp.
 
 JSON body:
 
-{
-"temperatura" : "customData#temp",
-"tiempo" : "{time}",
-"Nseq" : "{seqNumber}"
-}
+	{
+		"temperatura" : "customData#temp",
+		"tiempo" : "{time}",
+		"Nseq" : "{seqNumber}"
+	}
 
 finalmente damos click en "OK"
 
