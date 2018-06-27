@@ -43,7 +43,7 @@ nos vamos a nuestra cuenta del backend y buscamos el dispositivo que deseamos co
 
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm8a.png?raw=true)
 
-nos aparecerá la informacion del device type. En el panel izquierdo, damos click en "Callbacks"
+enseguida nos aparecerá la información del device type. En el panel izquierdo, damos click en "Callbacks"
 
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm8b.png?raw=true)
 
@@ -55,9 +55,26 @@ de entre los callbacks disponibles, selecionamos "IBM Watson IoT Platform"
 
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm8d.png?raw=true)
 
+realizamos la siguiente configuración:
 
+"API Key" -> "Clave de API"
+"Auth Token" -> "Señal de autenticación"
+
+en el JSON ponemos las variables que queramos enviar. En este caso se tiene una variable de temperatura creada llamada temp.
+
+JSON body:
+
+{
+"temperatura" : "customData#temp",
+"tiempo" : "{time}",
+"Nseq" : "{seqNumber}"
+}
+
+finalmente damos click en "OK"
 
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm12.png?raw=true)
+
+regresamos a la plataforma de IBM Watson. En el panel izquierdo, seleccionamos "Devices"
 
 ![ibm1](https://github.com/NXTIoT/Callback_IBM_Watson/blob/master/imagenes/ibm9.png?raw=true)
 
